@@ -1,5 +1,6 @@
 import React from 'react';
 import { MessageContext } from '../MessageContext';
+import './styles/Messenger.css'
 
 function Messenger() {
     const [newMessageValue, setNewMessageValue] = React.useState('');

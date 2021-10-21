@@ -1,8 +1,13 @@
 import React from 'react';
+import './styles/MessageBox.css'
 
 function MessageBox(props) {
     return (
-        <p>{props.text}</p>
+        <>
+            <li className="Text-Bubble">
+                <p className="Text">{props.text}</p>
+            </li>
+        </>
     );
 }
 

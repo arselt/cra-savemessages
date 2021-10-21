@@ -1,17 +1,11 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  color: black;
-  font-family: 'Lato', sans-serif;
-  max-width: 580px;
-  margin: 0 auto;
-}
-
-#root {
-  margin: 0 24px;
-  position: relative;
+    margin: 0 auto;
+    color: black;
+    background-color: #E8F1F2;
+    font-family: 'Lato', sans-serif;
 }

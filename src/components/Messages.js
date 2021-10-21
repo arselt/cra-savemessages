@@ -1,10 +1,11 @@
 import React from 'react';
+import './styles/Messages.css'
 
 function Messages(props) {
     return (
-        <main>
+        <div className="Main-Container">
             {props.children}
-        </main>
+        </div>
     );
 }
 
